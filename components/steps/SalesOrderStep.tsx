@@ -382,7 +382,7 @@ export const SalesOrderStep: React.FC<Props> = ({ scenario, inventory, onUpdateI
         {logs.map((log, i) => (
           <div key={i} className="mb-1 border-l-2 border-green-900 pl-2 hover:bg-green-900/10">
               <span className="opacity-50 text-[10px] mr-2">[{new Date().toLocaleTimeString()}]</span>
-              > {log}
+              &gt; {log}
           </div>
         ))}
         <div className="h-4 w-2 bg-green-500 animate-pulse mt-1 inline-block"></div>
